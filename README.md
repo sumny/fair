@@ -26,7 +26,7 @@ Note that data is obtained via `mlr3oml` and is cached via `qs`.
 
 ```r
 library(fair)
-scenario = "iaml_fair"
+scenario = "fair_rpart"
 configuration = list(cp = 0.5, maxdepth = 7, minbucket = 50, minsplit = 20, pre_post = "pre", reweighing_os_alpha = 0.05, trainsize = 0.11, task_id = "190424")
 eval_yahpo(scenario, configuration)
 ```
